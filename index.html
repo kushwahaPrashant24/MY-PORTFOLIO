@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main" bg-dark>
+      <div>PRASHANT KUSHWAHA</div>
+      <div>
+        <ul id="list">
+          <li><a href="#home" class="te">HOME</a></li>
+          <li><a href="#home" class="te">ABOUT</a></li>
+          <li><a href="#home" class="te">SKILLS</a></li>
+          <li><a href="#home" class="te">PROJECT</a></li>
+          <li><a href="#home" class="te">CONTACT </a></li>
+        </ul>
+      </div>
+    </div>
+    <!--nav bar completed-->
+
+    <header #home>
+      <div id="image">
+        <div id="intro">
+          <p id="sal">HI..</p>
+          <p id="self">MY NAME IS PRASHANT KUSHWAHA</p>
+        </div>
+
+        <img
+          class="img"
+          src="image/png-removebg-preview.png"
+          alt="profile-photo"
+        />
+      </div>
+    </header>
+
+    <!--ABOUT-->
+    <div id="about">
+      <h1><center>ABOUT ME</center></h1>
+      <p id="one">
+        "I am Prashant Kushwaha, a dedicated and ambitious individual hailing
+        from Prayagraj. I am currently pursuing a B.Tech in Computer Science and
+        Engineering (CSE) at Ajay Kumar Garg Engineering Collage Ghaziabad. With
+        a strong passion for technology and a desire to constantly expand my
+        knowledge, I am committed to achieving excellence in my field. My
+        academic pursuits and extracurricular activities have honed my
+        problem-solving skills and instilled a strong work ethic. I am eager to
+        contribute my technical skills, adaptability, and a drive for innovation
+        to any challenging project or team, making me a valuable asset in any
+        professional setting."
+      </p>
+
+      <div id="resume">
+        <a
+          href="https://docs.google.com/document/d/10y0mBx_QVDt8um_nyL85DnuP1HKtPR0pZ7lhZMhLys0/edit?usp=sharing"
+           target="_blank">MY RESUME</a
+        >
+      </div>
+    </div>
+    <!--skills-->
+
+    <div id="skills">
+      <h1><center>SKILLS</center></h1>
+
+      <div class="skill-main">
+        <div class="ski">
+          <img src="./image/icons8-c-50.png" alt="" class="logo" />
+          <p class="data" id="zero">C</p>
+        </div>
+
+        <div class="ski">
+          <img class="logo" src="./image/icons8-html-logo-48.png" alt="" />
+          <p class="data" id="ek">HTML</p>
+        </div>
+
+        <div class="ski">
+          <img src="./image/icons8-css-logo-48.png" alt="" class="logo" />
+          <p class="data" id="two">CSS</p>
+        </div>
+
+        <div class="ski">
+          <img
+            src="./image/icons8-javascript-logo-50.png"
+            alt=""
+            class="logo"
+          />
+          <p class="data" id="three">JAVASCRIPT</p>
+        </div>
+
+        <div class="ski">
+          <img src="./image/icons8-bootstrap-logo-48.png" alt="" class="logo" />
+          <p class="data" id="four">BOOTSTRAP</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--PROJECT-->
+
+    <div id="project">
+     <h1><center>PROJECT</center></h1>
+        <div class="project-main">
+          <h1><center>DICE GAME</center></h1> 
+          <a href="https://kushwahaprashant24.github.io/DICE-GAME/" target="main">
+          <img class="pro" src="./image/dice-game.png" alt="DICE GAME"></a>
+          <P class="proj-disc">THIS IS A DICE GAME WIHICH I MADE WITH THE HELP OF HTML, CSS AND JAVASCRIPT. CLICK ON THE IMAGE TO PLAY THE GAME </P>
+          
+        </div>
+        <div class="project-main">
+          <h1><center>DRUM SET</center></h1> 
+          <a href="https://kushwahaprashant24.github.io/DRUM-SET/" target="main.">
+          <img class="pro" src="./image/drum-set.png" alt="DICE GAME"></a>
+          <P class="proj-disc">THIS IS A DRUM SET WIHICH I MADE WITH THE HELP OF HTML, CSS AND JAVASCRIPT. CLICK ON THE IMAGE TO PLAY THE DRUM SET BY CLICKING BUTTON ON YOUR KEYBOARD OR SCREEN </P>
+        </div>
+    </div>
+     
+    <!--CONTRACT-->
+
+    <section id="contact">
+      <div  class="h-primary center"><h1>Contact Us</h1></div>
+      <div id="contact-box">
+          <form action="">
+              <div class="form-group">
+                  <label for="name">Name: </label>
+                  <input type="text" name="name" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email: </label>
+                  <input type="email" name="name" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone Number: </label>
+                  <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message: </label>
+                  <textarea name="message" id="message"></textarea>
+              </div>
+              <input class="submit" type="submit" value="Send">
+          </form>
+      </div>
+  </section>
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
