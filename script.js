@@ -1,10 +1,11 @@
 const textElement = document.querySelector("#self");
 const name = ['PRASHANT KUSHWAHA', ' A DEVLOPER'];
 
+
 function animationText(index) {
     textElement.innerHTML = "I AM "+ name[index];
     setTimeout ( () => {
-        animationText((index + 1) %name.length);
+        animationText((index + 1) % name.length);
     }, 3000);
 
   
