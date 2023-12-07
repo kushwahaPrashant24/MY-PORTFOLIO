@@ -10,7 +10,7 @@
   height: 40px;
   width: 70vw;
   border-radius: 20px;
-  background-color: rgb(90, 156, 184);
+  background-color: rgb(15, 27, 32);
   position: fixed;
   display: flex;
   padding-left: 20px;
@@ -20,7 +20,8 @@
   opacity: 0.9;
   z-index: 1;
   font-size: 20px;
-  border: 2px solid rgb(91, 108, 116);
+  border: 2px solid rgb(115, 133, 141);
+  color: aliceblue;
 }
 
 #list {
@@ -30,7 +31,7 @@
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #d0c6c6;
 }
 
 ul {
@@ -38,11 +39,11 @@ ul {
 }
 
 header {
-  background: rgb(228, 218, 223);
+  background: rgb(54, 53, 53);
   background: linear-gradient(
     90deg,
-    rgba(228, 218, 223, 1) 0%,
-    rgba(114, 133, 172, 1) 68%
+    rgb(29, 28, 29) 0%,
+    rgb(0, 0, 0) 68%
   );
 }
 /*image*/
@@ -61,7 +62,7 @@ header {
 #sal {
   font-size: 4rem;
   font-family: cursive;
-  color: #8d8dac;
+  color: #bdbdcd;
 }
 
 #self {
@@ -76,9 +77,9 @@ header {
   width: 60vh;
   margin-top: 100px;
   border-radius: 30%;
-  background-color: #6b82ac;
+  background-color: #060708;
 
-  box-shadow: 5px 20px 15px rgb(89, 159, 181);
+  box-shadow: 5px 20px 15px rgb(47, 50, 51);
 }
 
 /*ABOUT*/
@@ -87,8 +88,8 @@ header {
   background: rgb(228, 218, 223);
   background: linear-gradient(
     90deg,
-    rgba(228, 218, 223, 1) 0%,
-    rgba(114, 133, 172, 1) 68%
+    rgb(29, 28, 29) 0%,
+    rgb(0, 0, 0) 68%
   );
 }
 
@@ -103,6 +104,7 @@ h1 {
   font-family: cursive;
   padding-top: 20px;
   padding: 50px;
+  color: aliceblue;
 }
 
 #resume {
@@ -125,9 +127,10 @@ h1 {
   background: rgb(228, 218, 223);
   background: linear-gradient(
     90deg,
-    rgba(228, 218, 223, 1) 0%,
-    rgba(114, 133, 172, 1) 68%
+    rgb(29, 28, 29) 0%,
+    rgb(0, 0, 0) 68%
   );
+  color: aliceblue;
 }
 
 .skill-main {
@@ -135,8 +138,8 @@ h1 {
   background: rgb(228, 218, 223);
   background: linear-gradient(
     90deg,
-    rgb(227, 202, 214) 0%,
-    rgb(62, 106, 194) 68%
+    rgb(29, 28, 29) 0%,
+    rgb(0, 0, 0) 68%
   );
   display: flex;
   justify-content: space-evenly;
@@ -192,10 +195,10 @@ h1 {
     background: rgb(228, 218, 223);
     background: linear-gradient(
       90deg,
-      rgba(228, 218, 223, 1) 0%,
-      rgba(114, 133, 172, 1) 68%
+      rgb(29, 28, 29) 0%,
+      rgb(0, 0, 0) 68%
     );
-    
+    color: aliceblue;
  
 }
 
@@ -203,8 +206,8 @@ h1 {
   background: rgb(228, 218, 223);
   background: linear-gradient(
     90deg,
-    rgb(227, 202, 214) 0%,
-    rgb(62, 106, 194) 68%
+    rgb(29, 28, 29) 0%,
+    rgb(0, 0, 0) 68%
   );
   width: 1000px; 
   margin-left: 250px;
@@ -236,10 +239,11 @@ h1 {
  background: rgb(228, 218, 223);
  background: linear-gradient(
    90deg,
-   rgba(228, 218, 223, 1) 0%,
-   rgba(114, 133, 172, 1) 68%
+   rgb(29, 28, 29) 0%,
+   rgb(0, 0, 0) 68%
  );
  margin-top: -70px;
+ color: aliceblue;
 }
 #contact::before{
  content: "";
@@ -269,7 +273,7 @@ h1 {
  padding: 0.5rem;
  border-top: 0px;
  border-left: 0px ;
- border-bottom: 2px black solid;
+ border-bottom: 2px rgb(54, 53, 53) solid;
  border-radius: 9px;
  font-size: 1.1rem;
 } 
