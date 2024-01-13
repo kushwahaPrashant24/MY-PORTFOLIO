@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 });*/
 
 const textElement = document.querySelector("#self");
-const name = ['PRASHANT KUSHWAHA', ' A DEVLOPER'];
+const name = ['PRASHANT KUSHWAHA', ' A DEVELOPER'];
 
 
 function animationText(index) {
